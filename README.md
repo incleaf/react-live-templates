@@ -1,5 +1,5 @@
 # react-live-templates
-React Live templates for WebStorm(IntelliJ)
+React Live Templates for WebStorm(IntelliJ)
 
 ## rcls
 React Component (ES6)
@@ -38,6 +38,17 @@ export const actions = {$END$};
 export const defaultState = {};
 
 export default (state = defaultState, action) => {
-  
+  switch (action.type) {
+    default:
+      return state;
+  }
 }
 ```
+
+## act
+Define key-value on Object literal
+
+```javascript
+$COMPONENT$: '$COMPONENT$',$END$
+```
+
