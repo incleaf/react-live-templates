@@ -45,6 +45,15 @@ export default (state = defaultState, action) => {
 }
 ```
 
+## con
+React Component Constructor
+
+```javascript
+constructor(props) {
+  super(props);
+}$END$
+```
+
 ## act
 Define key-value on Object literal
 
