@@ -54,6 +54,13 @@ constructor(props) {
 }$END$
 ```
 
+## bind
+React Component context binding to function in constructor
+
+```javascript
+this.$COMPONENT$ = this.$COMPONENT$.bind(this);
+```
+
 ## act
 Define key-value on Object literal
 
